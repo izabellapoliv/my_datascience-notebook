@@ -1,7 +1,12 @@
 # My Datascience Notebook
 Includes Dockerfile and work folder with my personal projects
 
-To initialize Docker image, run:
+To build Docker image for the first time, run:
+```
+docker-compose build
+```
+
+Everytime you need to initialize Docker image, simply run:
 ```
 docker-compose up
 ```
